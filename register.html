@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Registro de administradores - Jelpit</title>
+</head>
+
+<body>
+
+  <div class="container d-flex justify-content-center">
+
+    <div class="col-md-7 custom-register">
+
+      <div class="card">
+
+        <div class="text-center">
+          <a href="https://www.jelpit.com/conjuntos">
+            <img src="img/logo.svg" alt="logo" class="logo">
+          </a>
+          <h1>Registro de administrador</h1>
+          <h2 class="text-promo">¡Los primeros 6 meses son gratis!</h2>
+          <h4 class="small-text">
+            Una vez realizado el registro quedarás como un usuario activo de la plataforma,
+            aprobando los términos y condiciones.
+          </h4>
+        </div>
+
+
+        <form action="" class="mt-4">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Nombres</label>
+              <input type="text" class="form-control" name="" required/>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Apellidos</label>
+              <input type="text" class="form-control" name="" required/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Tipo de documento</label>
+              <select class="form-control" name="tipo_documento" id="tipo_documento" required>
+                <option value="CC">Cédula Ciudadanía</option>
+                <option value="CE">Cédula Extranjería</option>
+                <option value="NT">NIT</option>
+                <option value="PP">Pasaporte</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Numero de documento</label>
+              <input type="text" class="form-control" name="" required/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="">Correo electrónico</label>
+              <input type="email" class="form-control" name="" required/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="">Telefono de contacto</label>
+              <input type="text" class="form-control" name="" required/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="">Letras generadas aleatoriamente</label>
+              <p class="text-center captcha">AGFT8</p>
+              <input type="text" class="form-control" name="" placeholder="Ingresa las cinco letras que ves arriba" required/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="" value="1" id="defaultCheck1" checked required/>
+              <label class="form-check-label small-text" for="defaultCheck1">
+                Acepto los <a href="#" class="link" target="_blank"
+                rel="noopener noreferrer">Términos y condiciones</a>, <a href="#" class="link" target="_blank"
+                rel="noopener noreferrer">Política de privacidad</a> y el <a href="#" class="link" target="_blank"
+                rel="noopener noreferrer">tratamiento de mis datos personales</a>.
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="" value="1" id="defaultCheck2" checked/>
+              <label class="form-check-label small-text" for="defaultCheck2">
+                Autorizo de manera expresa la utilización de mis datos para ser contactado y llevar a cabo las
+                finalidades <a href="#" class="link" target="_blank"
+                rel="noopener noreferrer">aquí descritas</a>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block mt-4">ENVIAR REGISTRO</button>
+
+          <p class="text-center mt-3">¿Ya tienes una cuenta? <a href="/login.html" class="link">Ingresa aquí</a></p>
+
+        </form>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
